@@ -4,15 +4,9 @@
 
 package pkg01t3;
 import java.util.Scanner;
-/**
- *
- * @author alumno
- */
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int num;
         
