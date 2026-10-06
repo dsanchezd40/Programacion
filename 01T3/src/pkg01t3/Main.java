@@ -1,3 +1,7 @@
+//EJERCICIO 1 TEMA 3
+
+//Implementa un algoritmo en JAVA que le pida al usuario un número por teclado. Posteriormente el programa le dirá al usuario si el número introducido es positivo o negativo.
+
 package pkg01t3;
 import java.util.Scanner;
 /**

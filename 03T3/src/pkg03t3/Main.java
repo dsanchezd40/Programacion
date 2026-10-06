@@ -1,3 +1,7 @@
+//EJERCICIO 3 TEMA 3
+
+//Diseña un programa en JAVA que lea tres números e imprima por pantalla el mayor de ellos.
+
 package pkg03t3;
 import java.util.Scanner;
 /**

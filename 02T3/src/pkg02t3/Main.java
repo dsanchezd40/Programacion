@@ -1,3 +1,7 @@
+//EJERCICIO 2 TEMA 3
+
+//Realiza un programa en el que le solicites al usuario 2 números y, si el primer número introducido es mayor que 10, se multipliquen, y en caso contrario que se sumen. Muestra al usuario la operación realizada y el resultado
+
 package pkg02t3;
 import java.util.Scanner;
 /**
