@@ -1,3 +1,7 @@
+//EJERCICIO 4 TEMA 3
+
+//Escribir un algoritmo en JAVA que pida tres números e imprima por pantalla el menor de ellos
+
 package pkg08t3;
 import java.util.Scanner;
 /**

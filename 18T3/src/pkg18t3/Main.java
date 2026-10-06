@@ -1,3 +1,7 @@
+//EJERCICIO 18 TEMA 3
+
+//Realiza un programa que le pida una contraseña al usuario. Si la escribe bien le dará la enhorabuena, pero si la escribe mal 3 veces le dará un mensaje de error de acceso
+
 package pkg18t3;
 
 import java.util.Scanner;

@@ -1,3 +1,7 @@
+////EJERCICIO 14 TEMA 3
+
+//Implementa un algoritmo en JAVA que, utilizando bucles, imprima los 100 primeros números paresImplementa un algoritmo en JAVA que, utilizando bucles, imprima los 100 primeros números pares
+
 package pkg14t3;
 
 public class Main {

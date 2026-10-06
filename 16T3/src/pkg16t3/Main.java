@@ -1,3 +1,7 @@
+//EJERCICIO 16 TEMA 3
+
+//Crea un programa que imprima los números impares que existen entre los números 20 y el 160. Además, al final, nos dirá cuantos impares ha imprimido en total por pantalla
+
 package pkg16t3;
 
 public class Main {

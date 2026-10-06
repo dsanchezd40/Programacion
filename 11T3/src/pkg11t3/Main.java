@@ -1,3 +1,7 @@
+//EJERCICIO 11 TEMA 3
+
+//Crea un programa en JAVA que, utilizando bucles, muestre por pantalla el mensaje "Hola" seis veces acompañado por un numero que se incrementa cada vez
+
 package pkg11t3;
 
 public class Main {

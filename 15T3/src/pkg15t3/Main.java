@@ -1,3 +1,7 @@
+//EJERCICIO 15 TEMA 3
+
+//Escribe un programa en JAVA que, utilizando bucles, imprima la tabla de multiplicar de un número que elija el usuario
+
 package pkg15t3;
 
 import java.util.Scanner;
