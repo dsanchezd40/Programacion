@@ -19,7 +19,7 @@ public class Main {
           } 
         } while(a <=1);
         
-        //Ahora creamos un bucle con 'for' para que comience con la variable i y mientras que sea más pequeño que el número solicitado, se vayan imprimiendo i pero cada vez con un valor mayor hasta llegar al valor proporcionado por el usuario
+        //Ahora creamos un bucle con 'for' para que comience con la variable i y mientras que sea más pequeño que el número solicitado, se irán imprimiendo i pero cada vez con un valor mayor hasta llegar al valor proporcionado por el usuario
         for(i = 1; i <= a; i++){
             System.out.println(i);
             
