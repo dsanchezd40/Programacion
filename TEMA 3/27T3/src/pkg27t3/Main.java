@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        //Declaramos variables y pedimos al usuario los números que desee calcular
         int x;
         int y;
         int z;
@@ -27,7 +28,7 @@ public class Main {
             opt = entrada.nextInt();
         } while(opt > 5);
         
-        
+        //Abrimos switch para realizar las operaciones que nos indique el usuario y detectamos si nos pide dividir con 0
             try{
                 
                 switch(opt){
