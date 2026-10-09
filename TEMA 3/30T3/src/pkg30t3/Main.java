@@ -1,7 +1,9 @@
-//Ejercicio 29 Tema 3
+//Ejercicio 30 Tema 3
+package pkg30t3;
 
-package pkg29t3;
+import java.util.InputMismatchException;
 import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,7 +16,8 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
         do{
             user = entrada.nextInt();
-            intentos++;
+            intentos++; 
+            
         if(user > entero){
             System.out.println("Prueba un número menor");
         }else if(user < entero){
