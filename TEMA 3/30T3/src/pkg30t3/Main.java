@@ -31,7 +31,6 @@ public class Main {
                 System.out.println("Debes introducir un número");
                 intentos++;
                 entrada.next();
-                
                 user = entrada.nextInt();
             }
             
