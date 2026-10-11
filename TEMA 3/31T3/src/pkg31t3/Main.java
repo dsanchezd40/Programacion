@@ -1,20 +1,22 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+//Ejercicio 31 tema 3
 package pkg31t3;
 
-/**
- *
- * @author Daniel
- */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int imp = 0;
+        int tries = 0;
+        
+        while(imp < 3){
+            int n = (int) (Math.random() * 100);
+            System.out.println(n);
+            tries++;
+            if(n % 2 != 0){
+                imp++;
+            } 
+        }
+            
+        System.out.println("Han sido generados " + tries + " números para obtener 3 impares");
     }
     
 }
