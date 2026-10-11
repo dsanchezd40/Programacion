@@ -15,17 +15,26 @@ public class Main {
         
         Scanner entrada = new Scanner(System.in);
         do{
-            user = entrada.nextInt();
-            intentos++; 
+            try{
+               user = entrada.nextInt();
+                intentos++; 
             
-        if(user > entero){
-            System.out.println("Prueba un número menor");
-        }else if(user < entero){
-            System.out.println("Prueba un número mayor");
-        }else {
-            System.out.println("HAS ACERTADO");
-            System.out.println("Lo has hecho en " + intentos + " intentos");
+                if(user > entero){
+                System.out.println("Prueba un número menor");
+                }else if(user < entero){
+                System.out.println("Prueba un número mayor");
+                }else {
+                System.out.println("HAS ACERTADO");
+                System.out.println("Lo has hecho en " + intentos + " intentos");
+            } 
+            } catch(InputMismatchException e){
+                System.out.println("Debes introducir un número");
+                intentos++;
+                entrada.next();
+                
+                user = entrada.nextInt();
             }
+            
         } while(user != entero); 
     }
     
