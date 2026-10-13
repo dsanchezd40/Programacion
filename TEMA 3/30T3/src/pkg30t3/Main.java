@@ -17,20 +17,19 @@ public class Main {
         do{
             try{
                user = entrada.nextInt();
-                intentos++; 
+               intentos++; 
             
                 if(user > entero){
                 System.out.println("Prueba un número menor");
                 }else if(user < entero){
                 System.out.println("Prueba un número mayor");
-                }else {
+                }else{
                 System.out.println("HAS ACERTADO");
                 System.out.println("Lo has hecho en " + intentos + " intentos");
             } 
             } catch(InputMismatchException e){
                 System.out.println("Debes introducir un número");
                 intentos++;
-                entrada.next();
                 user = entrada.nextInt();
             }
             
