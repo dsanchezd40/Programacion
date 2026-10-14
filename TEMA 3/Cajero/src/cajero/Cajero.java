@@ -5,16 +5,19 @@ import java.util.Scanner;
 public class Cajero {
 
     public static void main(String[] args) {
-        int opt;
+        int opt = 0;
         double saldo = 1000.00;
         double cantidad;
         int err = 0;
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Elija una opción:");
-        System.out.println("1. Conslutar");
-        System.out.println("2. Ingresar");
-        System.out.println("3. Retirar");
-        System.out.println("4. Salir");
+        do{
+            System.out.println("Elija una opción:");
+            System.out.println("1. Conslutar");
+            System.out.println("2. Ingresar");
+            System.out.println("3. Retirar");
+            System.out.println("4. Salir");
+        
+        
         try{
             opt = entrada.nextInt();
             switch (opt){
@@ -61,6 +64,7 @@ public class Cajero {
             entrada.next();
         }
         
+        } while(opt != 4);
     }
     
 }

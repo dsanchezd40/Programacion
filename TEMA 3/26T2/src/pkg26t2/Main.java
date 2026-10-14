@@ -11,11 +11,10 @@ public class Main {
             if(i % 2 != 0){
                 System.out.println(i);
                 suma = suma + i;
-                i++;
-                }
             }
-        System.out.println("La suma de estos números es: " + suma);
         }
-        
+        System.out.println("La suma de estos números es: " + suma);
     }
+        
+}
     
