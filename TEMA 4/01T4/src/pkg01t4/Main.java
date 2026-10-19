@@ -19,7 +19,7 @@ public class Main {
         System.out.print("Introduzca un número: ");
         //Introducimos un número cualquiera
         int num = pedirNumero();
-        //Establecemos conci
+        //Establecemos condiciones en función si es positivo o negativo
         if(num > 0){
             System.out.println("Positivo");
         }else{
