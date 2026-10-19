@@ -3,10 +3,10 @@
 package pkg02t4;
 
 import java.util.Scanner;
-import operaciones.Operaciones;
+import operaciones.Operaciones02t4;
 
 
-public class Main {
+public class e02t4 {
     /**
      * Métofo que pide números al usuario
      * @return 
@@ -23,9 +23,9 @@ public class Main {
         int num2 = pedirNumero();
         //Establecemos condiciones en función si el primer número es mayor a 10
         if(num1 > 10){
-            Operaciones.multiplicar(num1, num2);
+            Operaciones02t4.multiplicar(num1, num2);
         }else{
-            Operaciones.sumar(num1, num2);
+            Operaciones02t4.sumar(num1, num2);
         }
     }
     

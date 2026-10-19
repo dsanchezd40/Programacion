@@ -3,7 +3,7 @@ package pkg01t4;
 
 import java.util.Scanner;
 
-public class Main {
+public class e01t4 {
     
     /**
      * Método para pedir número al usuario

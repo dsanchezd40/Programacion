@@ -5,7 +5,7 @@ package operaciones;
  *
  * @author alumno
  */
-public class Operaciones {
+public class Operaciones02t4 {
     public static void sumar(int num1, int num2){
         System.out.println("La operación realizada es suma y el resultado es:" + (num1 + num2));
     }
