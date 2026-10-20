@@ -9,7 +9,10 @@ import op06t4.Operaciones06t4;
  * @author alumno
  */
 public class e06t4 {
-
+    /**
+     * Método para pedir número al usuario
+     * @return 
+     */
     public static int pedirNumero() {
         Scanner entrada = new Scanner(System.in);
         int num = entrada.nextInt();

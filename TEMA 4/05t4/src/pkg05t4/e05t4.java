@@ -24,6 +24,7 @@ public class e05t4 {
         System.out.print("Introduzca un número: ");
         //Introducimos un número cualquiera
         int num1 = pedirNumero();
+        
         Operaciones05t4.detectar(num1);
     }
     

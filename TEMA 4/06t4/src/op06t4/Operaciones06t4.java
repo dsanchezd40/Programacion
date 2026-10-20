@@ -5,6 +5,10 @@ package op06t4;
  * @author alumno
  */
 public class Operaciones06t4 {
+    /**
+     * Método para valorar la nota introducida con una calificación entre 1 y 10
+     * @param num1 
+     */
     public static void valorar(int num1){
         switch(num1) {
             case 0:
