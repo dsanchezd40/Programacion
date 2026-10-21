@@ -13,13 +13,15 @@ public class E13t4 {
     
     public static void comprobar(boolean mayor1, int num){
         Scanner entrada = new Scanner(System.in);
-        if(num > 1){
-            mayor1 = true;
-        }else{
-            mayor1 = false;
-            System.out.println("introduce un número mayor que 1:");
-            entrada.next();
-        }
+        
+            if(num > 1){
+                mayor1 = true;
+                
+            }else{
+                mayor1 = false;
+                System.out.println("introduce un número mayor que 1:");
+                entrada.next();
+            }while(num < 1);    
     }
     
     public static void generar(int num){
