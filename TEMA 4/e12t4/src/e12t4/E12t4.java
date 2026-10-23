@@ -21,13 +21,13 @@ public class E12t4 {
         Scanner entrada = new Scanner(System.in);
         //SI LA CONTRASEÑA QUE INTRODUCIMOS NO ES LA CORRECTA, SE RESTA UN INTENTO Y TE LO PIDE DE NUEVO HASTA QUE TE QUEDES SIN INTENTOS O ACIERTES
         
-        for(int i = 3; i > 0; i--){
+        for(int i = 2; i > 0; i--){
             if(contraseña != 123){
                 intentos--;
                 System.out.println("Contraseña incorrecta, te quedan " + intentos + " intentos. Intente de nuevo:");
                 entrada.next();
                 //CUANDO GASTAMOS LOS INTENTOS, NOS APARECERÁ UN MENSAJE DE ERROR Y NO NOS DEJARÁ SEGUIR        
-                if(intentos == 0){
+                if(intentos == 1){
                    System.out.println("ERROR DE ACCESO");
                 }
             }
