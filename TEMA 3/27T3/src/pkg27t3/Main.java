@@ -26,7 +26,7 @@ public class Main {
             //Le pedimos que elija una opción
             System.out.println("Elija una opción");
             opt = entrada.nextInt();
-        } while(opt > 5);
+        
         
         //Abrimos switch para realizar las operaciones que nos indique el usuario y detectamos si nos pide dividir con 0
             try{
@@ -59,7 +59,9 @@ public class Main {
         
             }catch(ArithmeticException e){
                 System.out.println("No se puede dividir con 0");
-            }   
+            }
+            
+            } while(opt != 5);
     } 
 }
     
