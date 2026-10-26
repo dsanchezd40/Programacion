@@ -1,14 +1,17 @@
-//e15t4
-package e15t4;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package ee15t4;
 
 import java.util.Scanner;
 
-public class E15t4 {
+/**
+ *
+ * @author Daniel
+ */
+public class Ee15t4 {
 
-    /**
-     * Método para pedir el dato al usuario
-     * @return 
-     */
     public static int pedirNumero1(int x) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Introduce un número:");
