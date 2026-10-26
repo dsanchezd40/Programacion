@@ -7,7 +7,8 @@ public class E14t4 {
 
     /**
      * Método para pedir el dato al usuario
-     * @return 
+     *
+     * @return
      */
     public static int pedirNumero() {
         Scanner entrada = new Scanner(System.in);
@@ -16,9 +17,11 @@ public class E14t4 {
     }
 
     /**
-     * Método para comprobar que sea mayor que 1 (repite la petición si está mal)
+     * Método para comprobar que sea mayor que 1 (repite la petición si está
+     * mal)
+     *
      * @param num
-     * @return 
+     * @return
      */
     public static int comprobar(int num) {
         Scanner entrada = new Scanner(System.in);
@@ -27,20 +30,21 @@ public class E14t4 {
             System.out.println("Error: introduce un número mayor que 1: ");
             num = entrada.nextInt();
         }
-        return num; 
+        return num;
     }
 
     /**
      * Método para hacer los cálculos y mostrar el resultado
-     * @param num 
+     *
+     * @param num
      */
     public static void generar(int num) {
         int contadorMultiplos = 0;
         System.out.println("Múltiplos de 3 entre 1 y " + num + ":");
-        
+
         for (int i = 1; i <= num; i++) {
             if (i % 3 == 0) {
-                System.out.print(i + " ");
+                System.out.println(i);
                 contadorMultiplos++;
             }
         }
@@ -49,8 +53,7 @@ public class E14t4 {
 
     public static void main(String[] args) {
         int numero = pedirNumero();
-        numero = comprobar(numero); 
-        generar(numero);            
+        comprobar(numero);
+        generar(numero);
     }
 }
-
