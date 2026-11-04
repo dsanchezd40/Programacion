@@ -3,38 +3,24 @@ package e26t4;
 import java.util.Scanner;
 
 public class E26t4 {
-
-    /**
-     * Método que solicita un número entero al usuario por consola.
-     */
     public static int pedirNumero() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce un número entero: ");
         return scanner.nextInt();
     }
-
-    /**
-     * Método que recibe un número entero y devuelve true si es primo o false si no lo es.
-     */
-    public static boolean esPrimo(int numero) {
-        
+    
+    public static boolean esPrimo(int numero) {        
         if (numero <= 1) {
             return false;
-        }
-
-        
+        }        
         for (int i = 2; i < numero; i++) {
             if (numero % i == 0) {
                 return false; 
             }
-        }
-        
+        }        
         return true;
     }
 
-    /**
-     * Método que se encarga exclusivamente de dar el formato de salida al resultado.
-     */
     public static void mostrarResultado(int numero, boolean primo) {
         if (primo) {
             System.out.println("El número " + numero + " es primo.");

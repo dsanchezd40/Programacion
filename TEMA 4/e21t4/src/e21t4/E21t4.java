@@ -43,10 +43,10 @@ public class E21t4 {
         return suma;
     }
 
-    public static void main(String[] args) {
+    public static void main (String[] args){
         int num1 = num1();
         int num2 = num2();
-        num2 = comprobar(num1, num2);   // recoge el valor corregido
+        num2 = comprobar(num1, num2);
         int suma = generar(num1, num2);
         System.out.println("LA suma es: " + suma);
     }
