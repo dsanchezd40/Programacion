@@ -12,10 +12,45 @@ public class Bicicleta {
     private float precio;
     private int year;
     
-    
-    
     //Atributo static (si se inicializa en la declaración)
     private static int contadorBicicleta = 0;
+    
+    //Atributo de otra clase
+    private Ciclista ciclista;
+    
+    
+    //CONSTRUCTORES
+    // 1. Por defecto
+    public Bicicleta(){
+        this.marca = "";
+        this.color = "";
+        this.precio = 0.0f;
+        this.year = 0;
+        
+        this.ciclista = new Ciclista();
+        
+        aumentarContadorBicicleta();
+    }
+    // 2. Parametrizado
+    public Bicicleta(String marca, String color, float precio, int year, Ciclista ciclista){
+        this.marca = marca;
+        this.color = color;
+        this.precio = precio;
+        this.year = year;
+
+        this.ciclista = ciclista;
+        
+        aumentarContadorBicicleta();
+    }
+    
+    // 3. Personalizado
+    public Bicicleta(String color){
+       this.marca = "";
+       this.color = color;
+       this.precio = 0.0f;
+       this.year = 0;
+    }
+    
     
     //Metodos
     //Getters - Setters
@@ -55,6 +90,13 @@ public class Bicicleta {
         return contadorBicicleta;
     }
     
+    public Ciclista getCiclista(){
+        return ciclista;
+    }
+    public void setCiclista(Ciclista ciclista){
+        ciclista = ciclista;
+    }
+    
     //Otros métodos
     public void mostrarAntiguedad(){
         if(year > 10){
@@ -75,11 +117,16 @@ public class Bicicleta {
         System.out.println("Color: " + color);
         System.out.println("Precio: " + precio);
         System.out.println("Años: " + year);
+        System.out.println("Ciclista: " + ciclista.toString());
     }
     
-    
+    //toString
     @Override
     public String toString(){
-        return "Marca: " + marca + ", Color: " + color + ", Precio: " + precio + ", Años: " + year;
+        return "Marca: " + marca 
+                + ", Color: " + color 
+                + ", Precio: " + precio 
+                + ", Años: " + year 
+                + ", Ciclista: " + ciclista;
     }
 }
