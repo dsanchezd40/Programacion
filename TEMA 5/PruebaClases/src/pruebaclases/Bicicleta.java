@@ -111,7 +111,7 @@ public class Bicicleta {
     }
     
     
-    //Método mostrar -- toString()        
+    //Método mostrar         
     public void mostrarBicicleta(){
         System.out.println("Marca: " + marca);
         System.out.println("Color: " + color);

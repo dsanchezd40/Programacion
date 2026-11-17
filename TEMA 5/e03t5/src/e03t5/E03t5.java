@@ -22,18 +22,16 @@ public class E03t5 {
         rueda2.setPulgadas(40);
         
         //Crear coche1
-        Coche coche1 = new Coche("AUDI", "A3 Sportback");
-
+        Coche coche1 = new Coche("AUDI", "A3 Sportback", rueda1);
+        System.out.println(coche1);
         
         //Crear coche2
-        Coche coche2 = new Coche("Volkswagen", "Golf GTI");
-        
+        Coche coche2 = new Coche("Volkswagen", "Golf GTI", rueda1);
+        System.out.println(coche2);
         
         //Crear coche3
-        Coche coche3 = new Coche();
-        coche3.setMarca("Volkswagen");
-        coche3.setCadena("Passat");
-        
+        Coche coche3 = new Coche("Volkswagen", "Passat", rueda2);
+        System.out.println(coche3);
     }
     
 }

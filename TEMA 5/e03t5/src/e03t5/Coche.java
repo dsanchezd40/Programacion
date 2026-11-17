@@ -18,11 +18,15 @@ public class Coche {
     public Coche(){
         this.marca = "";
         this.cadena = "";
+        
+        this.ruedas = ruedas;
     }
     //Parametrizado
-    public Coche(String marca, String cadena){
+    public Coche(String marca, String cadena, Rueda ruedas){
         this.marca = marca;
         this.cadena = cadena;
+        
+        this.ruedas = ruedas;
     }
     
     
@@ -50,4 +54,13 @@ public class Coche {
     public void setRuedas(Rueda ruedas){
         this.ruedas = ruedas;
     }
+    
+    //Método mostrar -- toString()
+    @Override
+    public String toString(){
+        return "Marca: " + marca 
+                + " // Cadena: " + cadena 
+                + " // Destalles de la rueda: " + ruedas.toString();
+    }
+    
 }

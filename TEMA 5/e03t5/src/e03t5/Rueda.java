@@ -27,7 +27,7 @@ public class Rueda {
     public String getMaterial(){
         return material;
     }
-    public void setMaterial(String nombre){
+    public void setMaterial(String material){
         this.material = material;
     }
     
@@ -39,9 +39,10 @@ public class Rueda {
         this.numPulgadas = numPulgadas;
     }
     
-    //Mostrar en pantalla
-    public void MostrarEstado(){
-        System.out.println("Material: " + material);
-        System.out.println("Número de pulgadas: " + numPulgadas);
+    //toString
+    @Override
+    public String toString(){
+        return "Material: " + material 
+                + "// Pulgadas: " + numPulgadas;
     }
 }
