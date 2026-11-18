@@ -43,6 +43,6 @@ public class Rueda {
     @Override
     public String toString(){
         return "Material: " + material 
-                + "// Pulgadas: " + numPulgadas;
+                + " // Pulgadas: " + numPulgadas;
     }
 }

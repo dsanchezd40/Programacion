@@ -62,9 +62,9 @@ public class Coche {
     public int getMotorEncencido(){
         return speed;
     }   
-    public void setMotorEncendido(int speed){
+    public void setMotorEncendido(){
         motorEncendido = true;
-        this.speed = 10;
+        speed = 10;
     }
     
     //Apagar coche
@@ -73,7 +73,7 @@ public class Coche {
     }   
     public void setMotorApagado(){
         motorEncendido = false;
-        this.speed = 0;
+        speed = 0;
     }
     
     //Acelerar coche
@@ -81,7 +81,7 @@ public class Coche {
         return speed;
     }   
     public void setAcelerar(){
-        this.speed = speed + 20;
+        speed = speed + 20;
     }
     
     //Frenar coche
@@ -89,7 +89,7 @@ public class Coche {
         return speed;
     }   
     public void setFrenar(){
-        this.speed = speed - 6;
+        speed = speed - 6;
     }
     
     //Obtener Estado
